@@ -1,0 +1,44 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.idea
+
+# 虚拟环境
+env/
+venv/
+.venv/
+.env
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 日志文件
+*.log
+logs/
+
+# 模型文件与权重
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.model
+
+# HuggingFace Transformers 缓存
+.cache/
+huggingface/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# VSCode 配置
+.vscode/
+
+# 临时文件
+tmp/
+temp/
+
+checkpoints/
